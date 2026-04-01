@@ -61,7 +61,7 @@ handler = WebhookHandler(LINE_CHANNEL_SECRET)
 
 # Gemini AI 初始化
 genai.configure(api_key=GEMINI_API_KEY)
-gemini_model = genai.GenerativeModel("gemini-2.0-flash")
+gemini_model = genai.GenerativeModel("gemini-1.5-flash")
 
 # ============================================================
 # 資料庫設定（SQLite，用來儲存群組訊息）
